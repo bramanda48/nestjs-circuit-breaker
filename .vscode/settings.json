@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.eslint.format": true,
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+}
