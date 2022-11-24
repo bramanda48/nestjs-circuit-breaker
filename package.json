@@ -21,16 +21,21 @@
     },
     "author": "Bramanda Suwandi",
     "license": "MIT",
-    "dependencies": {
+    "peerDependencies": {
         "@nestjs/common": "^9.0.0",
         "@nestjs/core": "^9.0.0",
+        "reflect-metadata": "^0.1.13"
+    },
+    "dependencies": {
         "opossum": "^7.0.0",
-        "reflect-metadata": "^0.1.13",
         "rxjs": "^7.2.0",
         "uuid": "^9.0.0"
     },
     "devDependencies": {
+        "@nestjs/common": "^9.0.0",
+        "@nestjs/core": "^9.0.0",
         "@nestjs/testing": "^9.2.0",
+        "reflect-metadata": "^0.1.13",
         "@types/jest": "^29.2.3",
         "@types/node": "^16.0.0",
         "@types/opossum": "^6.2.2",
