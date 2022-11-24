@@ -1,0 +1,43 @@
+{
+    "name": "@bramanda48/nestjs-circuit-breaker",
+    "version": "0.0.1",
+    "description": "NestJS Circuit Breaker with opossum",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+        "build": "rimraf dist && tsc",
+        "prepublish": "npm run build"
+    },
+    "keywords": [
+        "opossum",
+        "circuit breaker",
+        "microservice"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bramanda48/nestjs-circuit-breaker"
+    },
+    "author": "Bramanda Suwandi",
+    "license": "MIT",
+    "dependencies": {
+        "@nestjs/common": "^9.0.0",
+        "@nestjs/core": "^9.0.0",
+        "opossum": "^7.0.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.2.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@nestjs/testing": "^9.2.0",
+        "@types/jest": "^29.2.3",
+        "@types/node": "^16.0.0",
+        "@types/opossum": "^6.2.2",
+        "@types/uuid": "^8.3.4",
+        "jest": "^29.3.1",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^29.0.3",
+        "typescript": "^4.7.4"
+    }
+}
