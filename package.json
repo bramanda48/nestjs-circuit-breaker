@@ -1,6 +1,6 @@
 {
     "name": "@bramanda48/nestjs-circuit-breaker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "NestJS Circuit Breaker with opossum",
     "main": "dist/index.js",
     "scripts": {
