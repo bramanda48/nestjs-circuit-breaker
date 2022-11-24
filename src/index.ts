@@ -1,3 +1,4 @@
-export * from './circuit-breaker.constants';
-export * from './circuit-breaker.module';
-export * from './circuit-breaker.service';
+export { CBEvent } from './circuit-breaker.constants';
+export { CircuitBreakerModule } from './circuit-breaker.module';
+export { CircuitBreakerService } from './circuit-breaker.service';
+
